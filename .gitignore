@@ -1,0 +1,6 @@
+# Project exclude paths
+/gigasecond/target/
+/reverse_string/target/
+/armstrong_number/target/
+/target
+/clock/target/
