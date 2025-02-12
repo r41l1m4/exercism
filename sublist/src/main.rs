@@ -1,4 +1,3 @@
-use anyhow::anyhow;
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum Comparison {
@@ -13,23 +12,18 @@ pub fn sublist(first_list: &[i32], second_list: &[i32]) -> Comparison {
         return Comparison::Equal;
     }
 
-    if first_list.len() == second_list.len() {
-        let indexes = match get_indexes_in_bigger(second_list[0], first_list) {
-            Ok(indexes) => indexes,
-            Err(_) => return Comparison::Unequal,
-        };
-        if is_sublist(second_list, first_list, indexes) {
-            return Comparison::Equal
-        }
-    }else if first_list.len() > second_list.len() {
-        let indexes = match get_indexes_in_bigger(second_list[0], first_list) {
-            Ok(indexes) => indexes,
-            Err(_) => return Comparison::Unequal,
-        };
+    if first_list.len() >= second_list.len() {
         if second_list.is_empty() {
             return Comparison::Superlist;
         }
+        let indexes = match get_indexes_in_bigger(second_list[0], first_list) {
+            Some(indexes) => indexes,
+            None => return Comparison::Unequal,
+        };
         if is_sublist(second_list, first_list, indexes) {
+            if first_list.len() == second_list.len() {
+                return Comparison::Equal
+            }
             return Comparison::Superlist
         }
     }else if second_list.len() > first_list.len() {
@@ -37,8 +31,8 @@ pub fn sublist(first_list: &[i32], second_list: &[i32]) -> Comparison {
             return Comparison::Sublist;
         }
         let indexes = match get_indexes_in_bigger(first_list[0], second_list) {
-            Ok(indexes) => indexes,
-            Err(_) => return Comparison::Unequal,
+            Some(indexes) => indexes,
+            None => return Comparison::Unequal,
         };
         if is_sublist(first_list, second_list, indexes) {
             return Comparison::Sublist
@@ -47,18 +41,18 @@ pub fn sublist(first_list: &[i32], second_list: &[i32]) -> Comparison {
     Comparison::Unequal
 }
 
-fn get_indexes_in_bigger(first_smaller: i32, bigger: &[i32]) -> Result<Vec<usize>, anyhow::Error> {
+fn get_indexes_in_bigger(first_smaller: i32, bigger: &[i32]) -> Option<Vec<usize>> {
     let mut indexes = vec![];
 
-    for bigger_index in 0..bigger.len() {
-        if bigger[bigger_index] == first_smaller {
+    for (bigger_index, item) in bigger.iter().enumerate() {
+        if *item == first_smaller {
             indexes.push(bigger_index);
         }
     }
 
     match indexes.is_empty() {
-        false => Ok(indexes),
-        true => Err(anyhow!(""))
+        false => Some(indexes),
+        true => None
     }
 }
 
