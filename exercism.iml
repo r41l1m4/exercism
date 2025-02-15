@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/luhn/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/beer-song/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/difference-of-squares/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grains/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -27,6 +28,7 @@
       <excludeFolder url="file://$MODULE_DIR$/luhn/target" />
       <excludeFolder url="file://$MODULE_DIR$/beer-song/target" />
       <excludeFolder url="file://$MODULE_DIR$/difference-of-squares/target" />
+      <excludeFolder url="file://$MODULE_DIR$/grains/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
