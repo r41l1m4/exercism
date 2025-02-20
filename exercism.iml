@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/leap-year/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/nth-prime/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/prime-factors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/proverb/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -35,6 +36,7 @@
       <excludeFolder url="file://$MODULE_DIR$/leap-year/target" />
       <excludeFolder url="file://$MODULE_DIR$/nth-prime/target" />
       <excludeFolder url="file://$MODULE_DIR$/prime-factors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/proverb/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
