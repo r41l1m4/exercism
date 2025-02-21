@@ -21,6 +21,7 @@
       <sourceFolder url="file://$MODULE_DIR$/prime-factors/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bottle-song/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proverb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/raindrops/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -39,6 +40,7 @@
       <excludeFolder url="file://$MODULE_DIR$/prime-factors/target" />
       <excludeFolder url="file://$MODULE_DIR$/bottle-song/target" />
       <excludeFolder url="file://$MODULE_DIR$/proverb/target" />
+      <excludeFolder url="file://$MODULE_DIR$/raindrops/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
