@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/bob/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/high-scores/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/matching-brackets/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/collatz-conjecture/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -49,6 +50,7 @@
       <excludeFolder url="file://$MODULE_DIR$/bob/target" />
       <excludeFolder url="file://$MODULE_DIR$/high-scores/target" />
       <excludeFolder url="file://$MODULE_DIR$/matching-brackets/target" />
+      <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
