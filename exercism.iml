@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/raindrops/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sum_of_multiples/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bob/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/high-scores/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -45,6 +46,7 @@
       <excludeFolder url="file://$MODULE_DIR$/raindrops/target" />
       <excludeFolder url="file://$MODULE_DIR$/sum_of_multiples/target" />
       <excludeFolder url="file://$MODULE_DIR$/bob/target" />
+      <excludeFolder url="file://$MODULE_DIR$/high-scores/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
