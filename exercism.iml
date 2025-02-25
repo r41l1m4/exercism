@@ -28,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/matching-brackets/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/collatz-conjecture/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/series/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kindergarten-garden/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -53,6 +54,7 @@
       <excludeFolder url="file://$MODULE_DIR$/matching-brackets/target" />
       <excludeFolder url="file://$MODULE_DIR$/collatz-conjecture/target" />
       <excludeFolder url="file://$MODULE_DIR$/series/target" />
+      <excludeFolder url="file://$MODULE_DIR$/kindergarten-garden/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
