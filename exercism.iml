@@ -31,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/kindergarten-garden/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/acronym/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/eliuds-eggs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/all-your-base/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -59,6 +60,7 @@
       <excludeFolder url="file://$MODULE_DIR$/kindergarten-garden/target" />
       <excludeFolder url="file://$MODULE_DIR$/acronym/target" />
       <excludeFolder url="file://$MODULE_DIR$/eliuds-eggs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/all-your-base/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
