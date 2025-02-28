@@ -45,7 +45,7 @@ pub fn convert(number: &[u32], from_base: u32, to_base: u32) -> Result<Vec<u32>,
         (_, 0) => return Err(InvalidOutputBase),
         _ => (),
     }
-    Ok(from_decimal(&to_decimal(number, from_base)?, to_base)?)
+    from_decimal(&to_decimal(number, from_base)?, to_base)
 }
 
 fn to_decimal(number: &[u32], from_base: u32) -> Result<Vec<u32>, Error> {
@@ -53,7 +53,7 @@ fn to_decimal(number: &[u32], from_base: u32) -> Result<Vec<u32>, Error> {
         if n >= &from_base { return Err(InvalidDigit(*n)); }
     }
 
-    let result: u32 = number.into_iter()
+    let result: u32 = number.iter()
         .zip((0..number.len()).rev())
         .map(|(num, pow)| num * from_base.pow(pow as u32))
         .sum();
@@ -65,7 +65,7 @@ fn to_decimal(number: &[u32], from_base: u32) -> Result<Vec<u32>, Error> {
 }
 
 fn from_decimal(number: &[u32], to_base: u32) -> Result<Vec<u32>, Error> {
-    let mut num_tmp: u32 = String::from_iter(number.into_iter().map(|n| format!("{n}"))).parse().unwrap();
+    let mut num_tmp: u32 = String::from_iter(number.iter().map(|n| format!("{n}"))).parse().unwrap();
     let mut result: Vec<u32> = vec![];
 
     if num_tmp < to_base { return Ok(vec![num_tmp]); }
