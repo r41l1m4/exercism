@@ -19,17 +19,17 @@ pub enum Allergen {
 impl Allergies {
     pub fn new(score: u32) -> Self {
         let mut allergies: Vec<Allergen> = vec![];
-        let mut score_tmp = score;
+        let mut score = score;
 
         for pow in (0..8u32).rev() {
-            while score_tmp >= 256 {
-                score_tmp -= 256
+            while score >= 256 {
+                score -= 256
             };
-            if score_tmp == 0 { break; }
-            if score_tmp >= 2u32.pow(pow) {
-                let (allergy, sc) = get_allergy_by_score(2u32.pow(pow));
-                allergies.push(allergy);
-                score_tmp -= sc;
+            if score == 0 { break; }
+            if score >= 2u32.pow(pow) {
+                let (allergen, sc) = get_allergy_by_score(2u32.pow(pow));
+                allergies.push(allergen);
+                score -= sc;
             }
         }
         allergies.reverse();

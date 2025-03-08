@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/eliuds-eggs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/all-your-base/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/allergies/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/alphametics/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -63,6 +64,7 @@
       <excludeFolder url="file://$MODULE_DIR$/eliuds-eggs/target" />
       <excludeFolder url="file://$MODULE_DIR$/all-your-base/target" />
       <excludeFolder url="file://$MODULE_DIR$/allergies/target" />
+      <excludeFolder url="file://$MODULE_DIR$/alphametics/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
