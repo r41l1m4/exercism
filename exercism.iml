@@ -39,6 +39,7 @@
       <sourceFolder url="file://$MODULE_DIR$/dot-dsl/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/etl/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grade-school/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hamming/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -75,6 +76,7 @@
       <excludeFolder url="file://$MODULE_DIR$/dot-dsl/target" />
       <excludeFolder url="file://$MODULE_DIR$/etl/target" />
       <excludeFolder url="file://$MODULE_DIR$/grade-school/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hamming/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
