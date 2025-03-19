@@ -41,6 +41,7 @@
       <sourceFolder url="file://$MODULE_DIR$/grade-school/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hamming/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/isbn-verifier/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/isogram/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -79,6 +80,7 @@
       <excludeFolder url="file://$MODULE_DIR$/grade-school/target" />
       <excludeFolder url="file://$MODULE_DIR$/hamming/target" />
       <excludeFolder url="file://$MODULE_DIR$/isbn-verifier/target" />
+      <excludeFolder url="file://$MODULE_DIR$/isogram/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
