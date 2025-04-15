@@ -49,6 +49,8 @@
       <sourceFolder url="file://$MODULE_DIR$/palindrome-products/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/pangram/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pangram/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/pascals-triangle/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pascals-triangle/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/armstrong_number/target" />
       <excludeFolder url="file://$MODULE_DIR$/clock/target" />
       <excludeFolder url="file://$MODULE_DIR$/gigasecond/target" />
@@ -92,6 +94,7 @@
       <excludeFolder url="file://$MODULE_DIR$/paas-io/target" />
       <excludeFolder url="file://$MODULE_DIR$/palindrome-products/target" />
       <excludeFolder url="file://$MODULE_DIR$/pangram/target" />
+      <excludeFolder url="file://$MODULE_DIR$/pascals-triangle/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
